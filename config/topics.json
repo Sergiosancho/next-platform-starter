@@ -1,0 +1,14 @@
+{
+  "language": "es",
+  "timezone": "Europe/Madrid",
+  "postsPerRun": 1,
+  "themes": [
+    {
+      "name": "tecnología",
+      "instructions": "Noticias breves y claras sobre IA, desarrollo web y cloud para un público general con interés técnico. Incluye 3-5 bullets clave y 2-3 enlaces a fuentes fiables."
+    }
+  ],
+  "bannedPhrases": ["CLICKBAIT", "GANAR DINERO RÁPIDO"],
+  "minWords": 300,
+  "maxWords": 800
+}

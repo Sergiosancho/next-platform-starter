@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate:post": "node scripts/generate-post.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^10.3.1",
@@ -17,7 +18,10 @@
     "next": "^16.0.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "unique-names-generator": "^4.7.1"
+    "unique-names-generator": "^4.7.1",
+    "gray-matter": "^4.0.3",
+    "slugify": "^1.6.6",
+    "fs-extra": "^11.2.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.15",

@@ -11,7 +11,8 @@ const navItems = [
     { linkText: 'Blobs', href: '/blobs' },
     { linkText: 'Classics', href: '/classics' },
     { linkText: 'Middleware', href: '/middleware' },
-    { linkText: 'Routing', href: '/routing' }
+    { linkText: 'Routing', href: '/routing' },
+    { linkText: 'Blog', href: '/blog' }
 ];
 
 export function Header() {
